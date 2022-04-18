@@ -1,0 +1,19 @@
+.header {
+    /* position: absolute;
+    top: 28px;
+    left: 48px; */
+    margin: 28px 48px 0px 48px;
+    width: 1184px;
+    height: 52px;
+    border: 1px solid red;
+    box-sizing: border-box;
+
+
+    /* display: flex;
+    /* position: relative
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+
+
+}
