@@ -1,8 +1,14 @@
 .footer {
-    position: absolute;
-width: 1184px;
-height: 18px;
-left: 48px;
-top: 6833px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 1184px;
+  height: 18px;
+  padding: 92px 48px 24px 48px;
+  margin: 0;
+  border: 1px solid red;
+  box-sizing: border-box;
+  background-color: #2A2C2F;
 }

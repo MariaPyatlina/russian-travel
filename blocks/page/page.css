@@ -7,6 +7,8 @@
     font-family: 'Inter-Regular', Arial, Helvetica, sans-serif; /*ШРИФТ НАДО ПОМЕНЯТЬ*/
     background-color: #0b5ad1;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;/*
     justify-content: center;
     align-items: flex-start;
