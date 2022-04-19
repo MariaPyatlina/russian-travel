@@ -1,0 +1,15 @@
+.place__paragraph {
+    position: absolute;
+    width: 484px;
+    height: 145px;
+    left: 648px;
+    top: 2717px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+/* or 29px */
+    color: #FFFFFF; 
+}
