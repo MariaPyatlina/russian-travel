@@ -15,4 +15,4 @@
 
 
 **Ссылка на страничку**
-https://mariapyatlina.github.io/russian-travel/
+https://mariapyatlina.github.io/russian-travel/index.html
