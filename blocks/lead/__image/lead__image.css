@@ -1,8 +1,22 @@
 .lead__image {
-  position: absolute;
-  width: 984px;
-  height: 615px;
-  left: 148px;
-  top: 504px;
-  border: 1px solid red;
+  max-width: 984px;
+  padding-top: 64px;
+}
+@media (max-width: 1024px) {
+  .lead__image {
+      max-width: 928px;
+      padding-top: 56px;
+  }
+}
+@media (max-width: 768px) {
+  .lead__image {
+      max-width: 768px;
+      padding-top: 56px;
+  }
+}
+@media (max-width: 320px) {
+  .lead__image {
+      max-width: 320px;
+      padding-top: 40px;
+  }
 }

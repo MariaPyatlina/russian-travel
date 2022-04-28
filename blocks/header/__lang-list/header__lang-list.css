@@ -1,14 +1,7 @@
 .header__lang-list {
-    /* position: absolute;
-    top: 46px;
-    left: 1155px; */
-    width: 125px;
-    height: 28px;
-    margin: 0;
-    padding: 0;
-    
-    list-style: none;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
 }

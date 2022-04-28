@@ -1,17 +1,9 @@
 .page {
-    min-width: 1280px;
-    max-width: 100%;
-    /* max-width: 1600px; */
-    height: 6875px;
-    margin: 0 auto;
-    font-family: 'Inter-Regular', Arial, Helvetica, sans-serif; /*ШРИФТ НАДО ПОМЕНЯТЬ*/
-    background-color: #0b5ad1;
+    background: #2A2C2F;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;/*
-    justify-content: center;
-    align-items: flex-start;
-    z-index: -1;
-    box-sizing: border-box; */
 }

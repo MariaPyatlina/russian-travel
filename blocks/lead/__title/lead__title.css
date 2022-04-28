@@ -1,19 +1,23 @@
 .lead__title {
-    position: absolute;
-    width: 720px;
-    height: 200px;
-    left: 280px;
-    top: 136px;
-    
-    font-family: 'Inter';
-    font-style: normal;
+    margin: 0 auto;
+    max-width: 720px;
+    display: block;
+    box-sizing: border-box;
+    padding: 56px 0 0 0;
+    text-align: center;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    /* or 104% */
-    
-    text-align: center;
-    
-    color: #FFFFFF;
-  border: 1px solid red;
+}
+@media (max-width: 1024px) {
+    .lead__title{
+        padding-top: 48px;
+    }
+}
+@media (max-width: 320px) {
+    .lead__title{
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
