@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__langlink {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -6,7 +6,7 @@
     color: #FFFFFF;
 }
 @media (max-width: 320px) {
-    .pheader__lang-link {
+    .header__lang-link {
         font-size: 18px;
         line-height: 20px;
     }
