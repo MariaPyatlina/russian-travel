@@ -2,30 +2,32 @@
     grid-area: title;
     align-self: end;
     justify-self: start;
-    width: 460px;
+    max-width: 460px;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    box-sizing: border-box;
 }
 @media (max-width: 1024px) {
     .place__title {
-        width: 440px;
+        max-width: 440px;
     }
 }
 @media (max-width: 768px) {
     .place__title {
-        width: 340px;
+        max-width: 340px;
         font-size: 42px;
         line-height: 46px;
     }
 }
 @media (max-width: 320px) {
     .place__title {
-        width: 288px;
+        max-width: 320px;
         font-size: 32px;
         line-height: 35px;
-        margin-left: 16px;
+        padding: 0 16px;
     }
 }

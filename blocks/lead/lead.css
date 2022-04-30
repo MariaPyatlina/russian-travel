@@ -1,16 +1,18 @@
 .lead {
     max-width: 984px;
+    width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
-@media (max-width: 1280px) {
+
+@media (max-width: 1024px) {
     .lead{
         max-width: 928px;
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .lead{
         max-width: 768px;
     }

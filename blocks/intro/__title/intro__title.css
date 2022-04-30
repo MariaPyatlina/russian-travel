@@ -1,25 +1,33 @@
 .intro__title {
     margin: 0;
-    padding: 0;
-    max-width:690px;
+    max-width: 690px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 92px 0 0;
+    align-self: flex-start;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    padding-top: 92px;
-    align-self: flex-start;
+}
+@media (max-width: 1024px) {
+    .intro__title {
+        max-width: 720px;
+        padding: 88px 0 0 0;
+    }
 }
 @media (max-width: 768px) {
     .intro__title {
-        max-width: 720px;
-        padding-top: 88px;
-    }
+        max-width: 690px;
+        min-width: 320px;
+        font-size: 32px;
+        line-height: 35px;
+        padding: 64px 0 0 24px;
+    }  
 }
 @media (max-width: 320px) {
     .intro__title {
-        min-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-
-        padding-top: 64px;
+        max-width: 320px;
+        padding: 64px 16px 0 16px;
     }  
 }

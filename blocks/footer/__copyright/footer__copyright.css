@@ -6,7 +6,7 @@
     text-align: right;
     color: #fff;
 }
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     .footer__copyright {
         margin-top: 48px;
     }
