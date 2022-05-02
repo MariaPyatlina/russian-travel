@@ -16,12 +16,15 @@
         max-width: 720px;
     }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 970px) {
     .intro__list {
         max-width: 690px;
-        min-width: 320px;
         padding: 33px 0 0 24px;
+    }
+}
+@media (max-width: 768px) {
+    .intro__list {
+        min-width: 320px;
     }  
 }
 @media (max-width: 320px) {

@@ -8,18 +8,13 @@
     justify-items: start;
     align-items: start;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .place {
         gap: 48px 32px;
-    }
-}
-@media (max-width: 768px) {
-    .place {
         padding-top: 73px;
-        gap: 48px 28px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .place {
         padding-top: 50px;
         grid-template-areas:

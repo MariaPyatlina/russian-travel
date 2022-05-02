@@ -17,10 +17,15 @@
         max-width: 928px;
         }
 }
+@media (max-width: 970px) {
+    .lead__caption {
+        padding-left: 24px;
+        }
+}
 @media (max-width: 768px) {
     .lead__caption {
         max-width: 768px;
-        padding-left: 24px;
+        /* padding-left: 24px; */
         }
 }
 @media (max-width: 320px) {

@@ -1,16 +1,16 @@
 @import url(../vendor/normalize.css); /*Сбросили настройки стилей*/
+@import url(../vendor/fonts.css);  /*Подключили шрифты*/
 
 @import url(../blocks/page/page.css); /*Подключили свои стили*/
 @import url(../blocks/container/container.css);
 
-@import url(../vendor/fonts.css);  /*Подключили шрифты*/
 
 /*-----HEADER-------*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/-selected/header__lang-link-selected.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /*-----LEAD---------*/
 @import url(../blocks/lead/lead.css);
@@ -24,7 +24,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/-bold/intro__list-bold.css);
+@import url(..//blocks/intro/__span-accent/intro__span-accent.css);
 
 /*-----GRID_Photo-----------*/
 @import url(../blocks/photo-grid/photo-grid.css); 
@@ -35,17 +35,17 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__website/place_website.css);
-@import url(../blocks/place/__website/-title/place__website-title.css);
-@import url(../blocks/place/__website/-link/place__website-link.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__website-link/place__website-link.css);
+@import url(../blocks/place/__website-title/place__website-title.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph/-text/place__paragraph-text.css);
+@import url(../blocks/place/__paragraph-text/place__paragraph-text.css);
 
 /*-----COVER-----------*/
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__title.css/cover__title.css);
+@import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
 
 
 /*-----FOOTER-----------*/

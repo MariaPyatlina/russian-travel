@@ -10,15 +10,19 @@
     font-size: 16px;
     line-height: 26px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .intro__text {
         max-width: 720px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 970px) {
     .intro__text {
-        max-width: 690px;
-        padding: 40px 0 0 24px;
+        padding: 40px 24px 0 24px;
+    }
+}
+@media (max-width: 767px) {
+    .intro__text {
+        padding: 40px 24px 0 24px;
     }
 }
 @media (max-width: 320px) {
