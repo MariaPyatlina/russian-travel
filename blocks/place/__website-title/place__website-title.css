@@ -10,7 +10,7 @@
     text-transform: uppercase;
     
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .place__website-title {
         max-width: 352px;
     }
